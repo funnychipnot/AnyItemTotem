@@ -1,6 +1,9 @@
 plugins {
     id 'fabric-loom' version '1.5-SNAPSHOT'
 }
+loom {
+    accessWidenerPath = file("src/main/resources/anyitemtotem.accesswidener")
+}
 
 group = 'com.funnychip.anyitemtotem'
 version = '1.0.0'
