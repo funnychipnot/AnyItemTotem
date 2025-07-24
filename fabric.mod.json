@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "anyitemtotem",
+  "version": "1.0.0",
+  "name": "Any Item Totem",
+  "description": "Every item acts as a Totem of Undying.",
+  "authors": ["FunnyChip"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.funnychip.anyitemtotem.AnyItemTotemMod"
+    ]
+  },
+  "mixins": [
+    "anyitemtotem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.21.7"
+  }
+}
